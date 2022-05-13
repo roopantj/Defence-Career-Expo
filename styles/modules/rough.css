@@ -31,7 +31,7 @@ body {
   font-family: "Montserrat", sans-serif !important;
   font-size: 50px;
   font-weight: 600;
-  text-align: right;
+  text-align: center;
   padding-bottom: 30px;
 }
 .overmainimage .centered-cont {
@@ -69,11 +69,7 @@ body {
 }
 
 .rmcont {
-  height: 50px;
-  padding-top: 20px;
   align-self: center;
-}
-.rmcont a {
   padding: 5px;
   color: #000000;
   font-size: 16px;
@@ -85,7 +81,8 @@ body {
   background-color: red;
   border: 2px solid red;
 }
-.rmcont a:hover {
+
+.rmcont:hover {
   background-color: white;
   color: red;
 }

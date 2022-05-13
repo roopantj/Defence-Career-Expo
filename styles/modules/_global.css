@@ -5,7 +5,9 @@
   margin: 0;
   padding: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: var(--primary-font);
   color: var(--text-color);
@@ -38,18 +40,18 @@ input {
   overflow: hidden;
 }
 
-.bg-image-config{
+.bg-image-config {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.bg-image-config-top{
+.bg-image-config-top {
   background-position: top;
 }
 
-.bg-image-config::before{
-  content: '';
+.bg-image-config::before {
+  content: "";
   width: 100%;
   height: 100%;
   background-color: #00000070;
